@@ -2,6 +2,11 @@
 import HeroSection from "@/components/HeroSection";
 import AboutMethodSection from "@/components/AboutMethodSection";
 import TargetAudienceSection from "@/components/TargetAudienceSection";
+import AxisTrainerSection from "@/components/AxisTrainerSection";
+import AxisAdvantagesSection from "@/components/AxisAdvantagesSection";
+import WorkingPrincipleSection from "@/components/WorkingPrincipleSection";
+import ScientificBasisSection from "@/components/ScientificBasisSection";
+import MethodBenefitsSection from "@/components/MethodBenefitsSection";
 import ContactForm from "@/components/ContactForm";
 import { Button } from "@/components/ui/button";
 import { ChevronUp } from "lucide-react";
@@ -42,6 +47,10 @@ const Index = () => {
           
           <nav className="hidden md:flex items-center gap-6">
             <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">О методике</a>
+            <a href="#method-benefits" className="text-sm font-medium hover:text-primary transition-colors">Преимущества</a>
+            <a href="#axis-advantages" className="text-sm font-medium hover:text-primary transition-colors">Ось Жизни</a>
+            <a href="#working-principle" className="text-sm font-medium hover:text-primary transition-colors">Принцип работы</a>
+            <a href="#scientific-basis" className="text-sm font-medium hover:text-primary transition-colors">Научная база</a>
             <a href="#target-audience" className="text-sm font-medium hover:text-primary transition-colors">Кому подходит</a>
             <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">Контакты</a>
           </nav>
@@ -53,6 +62,10 @@ const Index = () => {
       <main>
         <HeroSection />
         <AboutMethodSection />
+        <MethodBenefitsSection />
+        <AxisAdvantagesSection />
+        <WorkingPrincipleSection />
+        <ScientificBasisSection />
         <TargetAudienceSection />
         
         <section className="py-16 md:py-24 bg-gradient-to-br from-gradient-blue to-gradient-purple" id="contact">
@@ -114,8 +127,9 @@ const Index = () => {
             <div>
               <h3 className="font-bold text-lg mb-4">Информация</h3>
               <ul className="text-muted-foreground text-sm space-y-2">
-                <li><a href="#" className="hover:text-primary transition-colors">О методике</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Научное обоснование</a></li>
+                <li><a href="#about" className="hover:text-primary transition-colors">О методике</a></li>
+                <li><a href="#axis-advantages" className="hover:text-primary transition-colors">Тренажер "Ось Жизни"</a></li>
+                <li><a href="#scientific-basis" className="hover:text-primary transition-colors">Научное обоснование</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Отзывы</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Франшиза</a></li>
               </ul>
