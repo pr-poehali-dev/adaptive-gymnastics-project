@@ -7,6 +7,7 @@ import AxisAdvantagesSection from "@/components/AxisAdvantagesSection";
 import WorkingPrincipleSection from "@/components/WorkingPrincipleSection";
 import ScientificBasisSection from "@/components/ScientificBasisSection";
 import MethodBenefitsSection from "@/components/MethodBenefitsSection";
+import TrainingProgramsSection from "@/components/TrainingProgramsSection";
 import ContactForm from "@/components/ContactForm";
 import { Button } from "@/components/ui/button";
 import { ChevronUp } from "lucide-react";
@@ -49,8 +50,8 @@ const Index = () => {
             <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">О методике</a>
             <a href="#method-benefits" className="text-sm font-medium hover:text-primary transition-colors">Преимущества</a>
             <a href="#axis-advantages" className="text-sm font-medium hover:text-primary transition-colors">Ось Жизни</a>
-            <a href="#working-principle" className="text-sm font-medium hover:text-primary transition-colors">Принцип работы</a>
-            <a href="#scientific-basis" className="text-sm font-medium hover:text-primary transition-colors">Научная база</a>
+            <a href="#training-programs" className="text-sm font-medium hover:text-primary transition-colors">Программы</a>
+            <a href="#scientific-basis" className="text-sm font-medium hover:text-primary transition-colors">Наука</a>
             <a href="#target-audience" className="text-sm font-medium hover:text-primary transition-colors">Кому подходит</a>
             <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">Контакты</a>
           </nav>
@@ -64,6 +65,7 @@ const Index = () => {
         <AboutMethodSection />
         <MethodBenefitsSection />
         <AxisAdvantagesSection />
+        <TrainingProgramsSection />
         <WorkingPrincipleSection />
         <ScientificBasisSection />
         <TargetAudienceSection />
@@ -129,9 +131,9 @@ const Index = () => {
               <ul className="text-muted-foreground text-sm space-y-2">
                 <li><a href="#about" className="hover:text-primary transition-colors">О методике</a></li>
                 <li><a href="#axis-advantages" className="hover:text-primary transition-colors">Тренажер "Ось Жизни"</a></li>
+                <li><a href="#training-programs" className="hover:text-primary transition-colors">Программы тренировок</a></li>
                 <li><a href="#scientific-basis" className="hover:text-primary transition-colors">Научное обоснование</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Отзывы</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Франшиза</a></li>
               </ul>
             </div>
             <div>
